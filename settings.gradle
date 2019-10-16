@@ -1,0 +1,2 @@
+include ':app', ':play-services'
+rootProject.name='e.play'
