@@ -26,11 +26,12 @@ dependencies {
 
     // Here is the trick: uncomment *either* one of the following two lines:
     // This line should be uncommented on the official Google device:
-//    implementation 'com.google.android.gms:play-services-base:17.1.0'
+    implementation 'com.google.android.gms:play-services-base:17.1.0'
+
 //     This line should be uncommented on the non-Google ROM:
-    implementation project(path: ':play-services')
+//    implementation project(path: ':play-services')
 
-
+    implementation 'org.nanohttpd:nanohttpd:2.3.1'
 
 
     testImplementation 'junit:junit:4.12'
